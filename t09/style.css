@@ -1,12 +1,12 @@
 a[href^="http"]::before {
   content: '\00D7';
-  margin-right: 10px;
+  margin-right: 16px;
   color: red;
 }
 
 a[href^="https"]::before {
   content: '\00BB';
-  margin-right: 10px;
+  margin-right: 16px;
   color: inherit;
 }
 
@@ -15,11 +15,11 @@ a[href*="://www"] {
 }
 
 a[target="_blank"]::after {
-  content: ' \21D2';
+  content: '\21D2';
   color: coral;
 }
 
 a[href$='a']:hover::after {
-  content: " \2026 last symbol is 'a'";
+  content: "\2026 last symbol is 'a'";
   color: coral;
 }

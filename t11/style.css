@@ -9,27 +9,25 @@ h1 {
 }
 
 .box:after {
-  content: '';
+  content: ' ';
   position: absolute;
-  display: block;
   bottom: -1px;
-  left: -25px;
-  width: calc(100% + 50px);
+  left: -23px;
+  width: calc(100% + 45px);
   height: 48px;
-  border-bottom: 1px solid gray;
-  border-top: 1px solid gray;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .box::before {
-  content: '';
+  content: ' ';
   position: absolute;
-  display: block;
-  bottom: -27px;
+  bottom: -26px;
   left: 0;
-  width: calc(100% - 1px);
+  width: calc(100% - 2px);
   height: 100px;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .box {

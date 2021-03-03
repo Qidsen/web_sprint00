@@ -1,7 +1,7 @@
 #rainbow-block {
 	height: 100px;
 	width: 100%;
-	background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
+	background: linear-gradient(to right, red, orange, yellow, green, blue, purple, pink);
 }
 
 #horn-block {
