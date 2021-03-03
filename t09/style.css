@@ -1,0 +1,8 @@
+a:before{
+	content: "\00BB\ ";
+}
+
+a:after{
+	content: " \21D2";
+	color: coral;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>t08</title>
+</head>
+<body>
+	<h1>Superhero Form</h1>
+	<form>
+		<fieldset>
+			<legend>About the Superhero</legend>
+			<label>Real Name</label>
+			<input type="text" name="real_name" placeholder="Superhero real name" autofocus>
+			<label>Superhero Name</label>
+			<input type="text" name="superhero_name" placeholder="Superhero alias">
+			<label>Age</label>
+			<input type="number" name="age" min="1" max="999">
+			<p><label>About</label>
+			<textarea rows="5" cols="70" maxlength="500" placeholder="Information about the superhero, max 500 symbols"></textarea></p>
+			<label>Photo:</label>
+			<input type="file" id="choose_file" name="choose_file">
+		</fieldset>
+		<fieldset>
+			<legend>Powers</legend>
+			<input type="checkbox" name="btn1">
+			<label>Telekinesis</label>
+			<input type="checkbox" name="btn1">
+			<label>Super strength or speed</label>
+			<input type="checkbox" name="btn1">
+			<label>Shapeshifting</label>
+			<input type="checkbox" name="btn1">
+			<label>Flight</label>
+			<input type="checkbox" name="btn1">
+			<label>Elemental control</label>
+			<input type="checkbox" name="btn1">
+			<label>Other</label>
+			<p><label>Level of control:</label>
+			<input type="range" class="slider" name="mySlider" min="0" max="10" step="1" value="1"></p>
+		</fieldset>
+		<fieldset>
+			<legend>Origin of Powers</legend>
+			<input type="radio" name="btn2">
+			<label>Unknown</label>
+			<input type="radio" name="btn2">
+			<label>Freak lab accident</label>
+			<input type="radio" name="btn2">
+			<label>Chosen by an ancient wise being</label>
+			<input type="radio" name="btn2">
+			<label>The superhero is not human</label>
+			<input type="radio" name="btn2">
+			<label>Other</label>
+		</fieldset>
+			<p><input type="reset" name="btn3" value="CLEAR">
+			<input type="submit" name="btn4" value="SEND"></p>
+	</form>
+</body>
+</html>
