@@ -1,4 +1,5 @@
 #image {
+	margin: 8px 5px 5px 5px;
 	height: 120px;
 	width: 120px;
 	border-radius: 20%;
@@ -13,5 +14,6 @@ thead {
 }
 
 tbody>tr>td {
+	text-align: center;
 	border: 2px solid white;
 }
